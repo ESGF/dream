@@ -2,4 +2,4 @@ name: DREAM
 author: ESGF
 markdown: kramdown
 
-baseurl: ""
+baseurl: "dream/"
