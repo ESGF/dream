@@ -36,7 +36,7 @@
               {% assign pages_list = site.pages | sort:"weight" %}
               {% assign group = 'navigation' %}
               {% include pages_list %}
-              <li><a href="Data/pdf/High-Level-Architecture-and-APIs.pdf">Architecture</a></li>
+              <li><a href="{{site.baseurl}}/Data/pdf/High-Level-Architecture-and-APIs.pdf">Architecture</a></li>
             </ul>
           </div>
         </div>
@@ -49,6 +49,7 @@
 <div class="container-fluid">
 <div class="row-fluid">
 <div class="span3">
+        <img src="{{site.baseurl}}/Data/media/images/DREAM-Logo.tiff"/>
     <div class="well sidebar-nav">
         <ul class="nav nav-list">
             <h4>Notes</h4>
