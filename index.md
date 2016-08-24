@@ -6,7 +6,17 @@ title: DREAM
 
 {% include hero.html %}
 
-<h3> U.S. Sponsors</h3>
+<div class="span12">
+  <div class="row">
+    <div class="span4">
+        <h3>U.S. Sponsor</h3>
+    </div>
+    <div class="span8">
+        <h3>Collaborators</h3>
+    </div>
+  </div>
+</div>
+
 <div class="span12">
   <div class="row">
     <div class="span4">
